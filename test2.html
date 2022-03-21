@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript form validation - checking non empty</title>
+    <link rel='stylesheet' href='form-style.css' type='text/css' />
+</head>
+
+<body onload='document.form1.text1.focus()'>
+    <div>
+        <form name="form1" action="#">
+
+            <input type='text' name='text1' />
+
+            <input type="submit" name="submit" value="Submit" onclick="stringlength(document.form1.text1,11,20)" />
+
+        </form>
+
+    </div>
+    <script src="./JsTest2.js"></script>
+</body>
+
+</html>
